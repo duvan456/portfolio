@@ -2,12 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 @font-face {
   font-family: 'Rajdhani';
   src: url(./assets/fonts/Rajdhani/Rajdhani-Light.ttf);
@@ -41,4 +35,17 @@
   src: url(./assets/fonts/Rajdhani/Rajdhani-Bold.ttf);
   font-weight: 700;
   font-style: normal;
+}
+
+.slick-dots li button:before {
+  background-color: white;
+  border-radius: 100%;
+}
+
+.slick-dots li button {
+  border-color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: white;
 }
