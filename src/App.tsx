@@ -35,7 +35,7 @@ function App() {
         </section>
       </section>
       <section className='flex basis-3/12 overflow-hidden'>
-        <img src='src\assets\fondo.gif' className='h-full object-cover' />
+        <img src='https://raw.githubusercontent.com/duvan456/portfolio/main/src/assets/fondo.gif' className='h-full object-cover' />
       </section>
       <section className='flex flex-col basis-7/12 border-2 border-app-secondary'>
         <section className='flex flex-row w-full h-[90px] text-white justify-center items-center text-center text-3xl'>
